@@ -19,7 +19,7 @@ services:
       - mongodb
 
   mongodb:
-    container_name: mongoDB
+    container_name: database
     image: mongo:8.0-rc
     environment:
       - MONGO_INITDB_ROOT_USERNAME=admin
