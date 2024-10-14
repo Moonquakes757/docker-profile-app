@@ -5,7 +5,7 @@ networks:
        name: 'mongo-network'
 services:
   app:
-    container_name: profileapp
+    container_name: profiledata
     image: profileapp:1.0
     build: .      # Location of Dockerfile
     ports:
